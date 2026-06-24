@@ -1,0 +1,24 @@
+{
+  "name": "yiwei-guo-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.24",
+    "next": "^15.5.9",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^20.17.6",
+    "@types/react": "^19.2.17",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  }
+}
