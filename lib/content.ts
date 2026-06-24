@@ -28,7 +28,7 @@ export const content = {
       { label: "Location", value: "Toronto, Canada" },
       { label: "Focus", value: "DFIR, ransomware, BEC, cloud and endpoint investigations" },
       { label: "Languages", value: "English and Mandarin" },
-      { label: "Portfolio", value: "gilbertguo.github.io/dfir-artifact-explorer-project" }
+      { label: "Forensic Notes", value: "gilbertguo.github.io/dfir-artifact-explorer-project" }
     ]
   },
   experience: [
