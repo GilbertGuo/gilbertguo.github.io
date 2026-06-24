@@ -222,26 +222,27 @@ export const content = {
   // Certification labels and URLs can be updated here.
   certifications: [
     {
-      name: "CISSP",
-      href: "https://www.linkedin.com/in/yiwei-guo/details/certifications/"
+      name: "CISSPCertified Information Systems Security Professional (CISSP)",
+      href: "https://www.credly.com/badges/6722ca1f-f42a-49f7-97ee-d7497deba333/linked_in_profile"
     },
     {
-      name: "GIAC Certified Forensic Analyst, GCFA",
-      href: "https://www.linkedin.com/in/yiwei-guo/details/certifications/"
+      name: "GIAC Certified Forensic Analyst (GCFA)",
+      href: "https://www.credly.com/badges/30954698-3d66-4d43-a2ef-4c64914fcacb/linked_in_profile"
     },
     {
-      name: "GIAC Network Forensic Analyst, GNFA",
-      href: "https://www.linkedin.com/in/yiwei-guo/details/certifications/"
+      name: "GIAC Network Forensic Analyst (GNFA)",
+      href: "https://www.credly.com/badges/9a50d5ae-9558-4088-a3a7-b1b6a37adddc/linked_in_profile"
     },
     {
-      name: "GIAC Cloud Forensics Responder, GCFR",
-      href: "https://www.linkedin.com/in/yiwei-guo/details/certifications/"
+      name: "GIAC Cloud Forensics Responder (GCFR)",
+      href: "https://www.credly.com/badges/e6a28959-385e-49af-9929-e03cf568a623/linked_in_profile"
     }
   ],
   education: [
     {
       school: "University of Guelph",
       degree: "Master of Cybersecurity and Threat Intelligence",
+      detail: "Cybersecurity and Threat Intelligence",
       dates: "2020 - 2021",
       location: "Guelph, Canada"
     },
@@ -271,6 +272,6 @@ export const content = {
       "Whether it is DFIR, threat hunting, cloud investigations, forensic automation, or cybersecurity consulting, I am always interested in meaningful conversations around security and incident response.",
     email: "gyw765419384@gmail.com",
     location: "Toronto, Canada",
-    portfolio: "gilbertguo.github.io/dfir-artifact-explorer-project"
+    portfolio: "gilbertguo.github.io"
   }
 } as const;
