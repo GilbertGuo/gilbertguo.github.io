@@ -219,11 +219,24 @@ export const content = {
       outcome: "Improved triage speed, consistency, and analyst workflow efficiency."
     }
   ],
+  // Certification labels and URLs can be updated here.
   certifications: [
-    "CISSP",
-    "GIAC Certified Forensic Analyst, GCFA",
-    "GIAC Network Forensic Analyst, GNFA",
-    "GIAC Cloud Forensics Responder, GCFR"
+    {
+      name: "CISSP",
+      href: "https://www.linkedin.com/in/yiwei-guo/details/certifications/"
+    },
+    {
+      name: "GIAC Certified Forensic Analyst, GCFA",
+      href: "https://www.linkedin.com/in/yiwei-guo/details/certifications/"
+    },
+    {
+      name: "GIAC Network Forensic Analyst, GNFA",
+      href: "https://www.linkedin.com/in/yiwei-guo/details/certifications/"
+    },
+    {
+      name: "GIAC Cloud Forensics Responder, GCFR",
+      href: "https://www.linkedin.com/in/yiwei-guo/details/certifications/"
+    }
   ],
   education: [
     {
