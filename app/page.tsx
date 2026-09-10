@@ -37,7 +37,7 @@ export default function Home() {
       <SectionWrapper id="skills" eyebrow="Capabilities" title="DFIR, cloud, identity, and client-ready delivery">
         <Skills groups={content.skills} />
       </SectionWrapper>
-      <SectionWrapper id="work" eyebrow="Selected Work" title="Confidential case patterns, polished for public view">
+      <SectionWrapper id="work" eyebrow="Selected Work" title="DFIR tools, resources, and investigation workbenches">
         <CaseStudies studies={content.caseStudies} />
       </SectionWrapper>
       <SectionWrapper id="certifications" eyebrow="Credentials" title="Validated cybersecurity and forensic expertise">

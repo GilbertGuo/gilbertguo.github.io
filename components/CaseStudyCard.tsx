@@ -7,13 +7,19 @@ export type CaseStudy = {
   challenge: string;
   approach: string;
   outcome: string;
+  href?: string;
 };
 
 const rows = ["challenge", "approach", "outcome"] as const;
 
 export function CaseStudyCard({ study, index }: { study: CaseStudy; index: number }) {
+  const CardElement = study.href ? motion.a : motion.article;
+
   return (
-    <motion.article
+    <CardElement
+      href={study.href}
+      target={study.href ? "_blank" : undefined}
+      rel={study.href ? "noreferrer" : undefined}
       className="glass-panel group rounded-2xl p-6 transition duration-300 hover:-translate-y-1 hover:border-[#7dd8ff]/36 md:p-8"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -34,6 +40,11 @@ export function CaseStudyCard({ study, index }: { study: CaseStudy; index: numbe
           </div>
         ))}
       </div>
-    </motion.article>
+      {study.href ? (
+        <p className="mt-7 text-xs font-semibold uppercase tracking-[0.2em] text-[#7dd8ff]/72 transition group-hover:text-[#d8bd78]">
+          View project
+        </p>
+      ) : null}
+    </CardElement>
   );
 }

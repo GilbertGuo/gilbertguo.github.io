@@ -71,7 +71,11 @@ a {
 }
 
 .primary-cta {
-  color: #07111f !important;
+  border: 1px solid rgba(125, 216, 255, 0.38);
+  background:
+    linear-gradient(135deg, rgba(125, 216, 255, 0.18), rgba(216, 189, 120, 0.1)),
+    rgba(255, 255, 255, 0.035);
+  color: #f4f7fb !important;
 }
 
 .timeline-line {

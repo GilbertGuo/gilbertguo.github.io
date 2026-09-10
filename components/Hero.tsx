@@ -38,7 +38,7 @@ export function Hero({ data }: { data: HeroData }) {
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
               href={data.primaryCta.href}
-              className="primary-cta cyan-glow rounded-full bg-white px-7 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] transition hover:-translate-y-0.5 hover:shadow-[0_0_44px_rgba(125,216,255,0.28)]"
+              className="primary-cta cyan-glow rounded-full px-7 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] transition hover:-translate-y-0.5 hover:shadow-[0_0_44px_rgba(125,216,255,0.28)]"
             >
               {data.primaryCta.label}
             </a>

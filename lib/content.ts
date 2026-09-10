@@ -9,9 +9,9 @@ export const content = {
   ],
   hero: {
     name: "Yiwei Guo",
-    role: "Cybersecurity Professional | DFIR Engagement Lead | Digital Forensics & Incident Response",
+    role: "DFIR Engagement Lead | Digital Forensics & Incident Response",
     intro:
-      "I lead and support complex cybersecurity investigations involving ransomware, business email compromise, cloud incidents, endpoint activity, and identity-based threats. My work focuses on turning technical evidence into clear findings, practical recommendations, and actionable next steps.",
+      "I lead complex ransomware, intrusion, business email compromise, and cloud investigations. My work combines hands-on host, network, and cloud forensics with client communication, legal counsel updates, executive reporting, project delivery, and analyst mentoring.",
     primaryCta: { label: "View Experience", href: "#experience" },
     secondaryCta: { label: "Contact Me", href: "#contact" }
   },
@@ -22,13 +22,13 @@ export const content = {
       "Based in Toronto, Canada",
       "Bilingual in English and Mandarin",
       "Strong experience communicating with both technical and non-technical stakeholders",
-      "Experienced in client meetings, forensic update calls, counsel communications, and executive-level reporting"
+      "Experienced in client meetings, forensic update calls, counsel communications, executive briefings, and project delivery"
     ],
     facts: [
       { label: "Location", value: "Toronto, Canada" },
-      { label: "Focus", value: "DFIR, ransomware, BEC, cloud and endpoint investigations" },
+      { label: "Focus", value: "DFIR, ransomware, BEC, intrusion, cloud, identity, and endpoint investigations" },
       { label: "Languages", value: "English and Mandarin" },
-      { label: "Forensic Notes", value: "gilbertguo.github.io/dfir-artifact-explorer-project" }
+      { label: "Portfolio", value: "gilbertguo.github.io" }
     ]
   },
   experience: [
@@ -37,15 +37,15 @@ export const content = {
       role: "Cyber Analyst - Engagement Lead, DFIR",
       dates: "Dec 2024 - Present",
       description:
-        "Lead and support DFIR engagements involving business email compromise, intrusions, ransomware, cloud-based incidents, network-based incidents, and host-based forensic analysis.",
+        "Lead end-to-end, client-facing ransomware, intrusion, and BEC investigations across endpoint, cloud, identity, mailbox, and network evidence.",
       points: [
-        "Lead incident response engagements from investigation through reporting",
-        "Conduct forensic analysis across endpoint artifacts, cloud logs, identity logs, mailbox activity, and network telemetry",
-        "Reconstruct attacker timelines, identify root cause, and assess business impact",
-        "Lead client and counsel update calls with clear, actionable findings",
-        "Prepare engagement documentation including LOEs, SOWs, and change orders",
-        "Build internal automation and forensic processing workflows using PowerShell and Python",
-        "Mentor new team members on forensic workflows, artifact analysis, and internal tooling"
+        "Coordinate scope, evidence, priorities, timelines, resourcing, and analyst assignments",
+        "Analyze endpoint artifacts, Microsoft 365 and Google Workspace audit logs, cloud and identity logs, mailbox activity, and network telemetry",
+        "Establish root cause, reconstruct attacker activity, and assess scope and business impact",
+        "Lead forensic update calls with clients and legal counsel, communicating findings and next steps clearly",
+        "Prepare engagement documentation that defines scope and resourcing",
+        "Build Python and PowerShell automation and custom parsers for forensic processing, triage, and artifact analysis",
+        "Train analysts on investigation methods, tooling, and evidence review"
       ]
     },
     {
@@ -53,13 +53,14 @@ export const content = {
       role: "Senior Cyber Security Consultant",
       dates: "Oct 2023 - Nov 2024",
       description:
-        "Led ransomware, BEC, insider threat, cloud, and enterprise security investigations for private and public-sector clients.",
+        "Led ransomware, BEC, insider-threat, and cloud investigations for enterprise and public-sector clients.",
       points: [
-        "Led DFIR engagements across enterprise environments",
-        "Managed client communications, expectations, deliverables, timelines, and scope",
-        "Mentored junior analysts, co-ops, and new hires",
-        "Used Microsoft 365 UAL, SentinelOne, CrowdStrike, firewall logs, network telemetry, and domain artifacts to investigate attacker activity",
-        "Delivered technical findings and executive briefings"
+        "Delivered technical findings and executive briefings for enterprise and public-sector clients",
+        "Examined Microsoft 365 UAL records, Google Workspace audit logs, EDR telemetry, network flows, firewall logs, and on-premises domain artifacts",
+        "Reconstructed attacker activity and validated business impact across complex environments",
+        "Managed client communications, project scope, budgets, timelines, and analyst assignments",
+        "Resolved technical blockers and reviewed findings to maintain high-quality delivery",
+        "Mentored junior consultants, co-op students, and new hires on DFIR methodology, KAPE, Velociraptor, EDR tools, and investigation workflows"
       ]
     },
     {
@@ -67,13 +68,13 @@ export const content = {
       role: "Cyber Security Consultant",
       dates: "Sep 2021 - Sep 2023",
       description:
-        "Performed incident response, threat hunting, compromise assessments, table-top exercises, and BEC investigations.",
+        "Performed incident response, threat hunting, compromise assessments, tabletop exercises, and BEC investigations.",
       points: [
-        "Investigated ransomware and business email compromise incidents",
-        "Developed threat hunting use cases and environment sweeps",
-        "Delivered post-incident reports with findings and recommendations",
-        "Supported compromise assessments across client environments",
-        "Helped clients improve incident response readiness"
+        "Investigated high-profile ransomware and business email compromise incidents",
+        "Produced post-incident reports with findings and remediation recommendations to reduce future compromise risk",
+        "Developed threat-hunting use cases and conducted environment-wide compromise assessments",
+        "Identified indicators of compromise and suspicious activity across client environments",
+        "Designed and facilitated cyberattack tabletop exercises to strengthen incident response readiness"
       ]
     },
     {
@@ -109,6 +110,7 @@ export const content = {
         "Host-based forensics",
         "Network forensics",
         "Cloud and identity investigations",
+        "Evidence review",
         "Timeline reconstruction",
         "Root cause analysis",
         "Impact assessment"
@@ -118,11 +120,13 @@ export const content = {
       title: "Engagement Leadership",
       items: [
         "Client communication",
+        "Client engagement management",
         "Counsel updates",
         "Forensic status calls",
         "Executive reporting",
         "Evidence tracking",
         "Scope management",
+        "Budgets and timelines",
         "LOE / SOW / change order support",
         "Team coordination",
         "Mentorship"
@@ -133,6 +137,8 @@ export const content = {
       items: [
         "Microsoft Defender for Endpoint",
         "Microsoft 365 Unified Audit Log",
+        "Google Workspace audit logs",
+        "EDR telemetry",
         "SentinelOne",
         "CrowdStrike",
         "Huntress",
@@ -178,51 +184,68 @@ export const content = {
         "JavaScript",
         "Shell scripting",
         "Web development",
+        "AI-assisted DFIR tooling",
         "Custom forensic parsers",
+        "Searchable dashboards",
+        "Cloud-log collectors",
         "Workflow automation"
       ]
     }
   ],
   caseStudies: [
     {
-      title: "Ransomware Investigation",
+      title: "DFIR Projects & Resources",
       challenge:
-        "An organization experienced encryption activity across multiple systems and required rapid scoping, root cause analysis, and business impact assessment.",
+        "Central portfolio for DFIR tools, cloud-forensics notes, and technical resources.",
       approach:
-        "Analyzed endpoint artifacts, authentication logs, remote access activity, lateral movement indicators, and attacker tooling to reconstruct the timeline.",
+        "Organized practical resources around investigation workflows, evidence interpretation, and repeatable analyst reference material.",
       outcome:
-        "Delivered clear findings, identified key attack paths, and provided practical recommendations to support containment and recovery."
+        "Creates a single public entry point for hands-on DFIR projects and supporting research.",
+      href: "https://gilbertguo.github.io/dfir-projects-resources/"
     },
     {
-      title: "Business Email Compromise Review",
+      title: "DFIR Artifact Explorer",
       challenge:
-        "Suspicious mailbox activity raised concerns around unauthorized access, data exposure, and fraudulent email activity.",
+        "Investigators often need a fast way to locate and interpret artifacts across operating systems and SaaS platforms.",
       approach:
-        "Reviewed sign-in logs, mailbox audit events, forwarding rules, inbox rules, message trace data, and identity activity.",
+        "Built a searchable reference for Windows, Linux, Microsoft 365, and Google Workspace artifacts.",
       outcome:
-        "Established the access timeline, assessed mailbox impact, and provided remediation guidance to reduce future compromise risk."
+        "Supports faster evidence review, artifact lookup, and investigation planning.",
+      href: "https://gilbertguo.github.io/dfir-artifact-explorer-project/"
     },
     {
-      title: "Cloud and Identity Investigation",
+      title: "M365 Investigator Suite",
       challenge:
-        "Cloud and identity logs showed suspicious activity requiring validation of access, privilege usage, and potential persistence.",
+        "BEC investigations require repeatable review of mailbox, identity, enrichment, and hunting evidence.",
       approach:
-        "Correlated cloud audit logs, authentication events, administrative actions, and endpoint telemetry.",
+        "Created a case-based workbench for Microsoft 365 log analysis, enrichment, hunting, and exports.",
       outcome:
-        "Clarified the scope of activity and helped stakeholders understand exposure, remediation priorities, and monitoring improvements."
+        "Improves consistency and speed during Microsoft 365 investigation workflows.",
+      href: "https://github.com/GilbertGuo/M365-Investigator-Suite"
     },
     {
-      title: "Forensic Automation",
-      challenge: "Manual forensic artifact processing created delays during active investigations.",
+      title: "GWS Investigator Suite",
+      challenge:
+        "Google Workspace investigations need structured review of audit activity, enrichment, hunting results, and case evidence.",
       approach:
-        "Built PowerShell and Python-based automation to parse, normalize, and accelerate review of forensic artifacts.",
-      outcome: "Improved triage speed, consistency, and analyst workflow efficiency."
+        "Built a case-based workbench for Google Workspace log analysis, enrichment, hunting, and exports.",
+      outcome: "Helps analysts move from raw workspace activity to clearer investigative findings.",
+      href: "https://github.com/GilbertGuo/GWS-Investigator-Suite"
+    },
+    {
+      title: "AWS CloudTrail Event History Collector",
+      challenge:
+        "Cloud investigations require careful collection across AWS Regions without changing the environment under review.",
+      approach:
+        "Built a read-only, resumable collector for CloudTrail Event History across AWS Regions.",
+      outcome: "Supports reliable cloud-log collection and repeatable review during AWS investigations.",
+      href: "https://github.com/GilbertGuo/aws-cloudtrail-event-history-collector"
     }
   ],
   // Certification labels and URLs can be updated here.
   certifications: [
     {
-      name: "CISSPCertified Information Systems Security Professional (CISSP)",
+      name: "Certified Information Systems Security Professional (CISSP)",
       href: "https://www.credly.com/badges/6722ca1f-f42a-49f7-97ee-d7497deba333/linked_in_profile"
     },
     {
